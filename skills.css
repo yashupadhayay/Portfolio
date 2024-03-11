@@ -74,4 +74,9 @@ footer {
   footer p{
     background-color:#333;
   }
- 
+  html{
+    height: -webkit-fill-available;
+}
+body{
+    height: -webkit-fill-available;
+}

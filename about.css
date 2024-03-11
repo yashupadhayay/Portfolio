@@ -55,5 +55,11 @@
       background-color: #333;
       bottom: 30px;
   }
+  html{
+    height: -webkit-fill-available;
+  }
+  body{
+    height: -webkit-fill-available;
+  }
 
   

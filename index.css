@@ -155,4 +155,9 @@ footer p{
     color: #fff;
     background-color: #444;
 }
-
+html{
+    height: -webkit-fill-available;
+}
+body{
+    height: -webkit-fill-available;
+}
