@@ -16,7 +16,7 @@
     transition: 0.5s;
 
 }
-header{
+/* header{
     position:absolute;
     top: 0;
     left: 0;
@@ -55,7 +55,7 @@ header ul li a{
     color:#f1efe7 ;
     transition: 0.5s;
     background-color: black;
-}
+}*/
 .content{
     position: relative;
     max-width: 900px;
