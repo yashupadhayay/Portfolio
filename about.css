@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-family:'poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  .about{
+    background-color: #f1efe7;
+  }
+  footer {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      width: 100%;
+      text-align: center;
+    }
+
+  .about h1{
+      text-align: center;
+      font-size: 4.5em;
+      font-weight: 600;
+      transition: 0.5s;
+      background-color:black;
+      padding-top: 15px;
+      color: #f1efe7;
+  }
+  .about p{
+      font-size:24px;
+      transition: 0.5s;  
+      line-height: 40px;
+      margin-top: 12px;
+      margin-left: 11px;
+  }
+  
+  .about span{
+      font-size: 35px;
+      line-height: 5px;
+      transition: 0.5s;
+      margin-left: 11px;
+      margin-top: 15px;
+  }
+  .about pre{
+      font-size: 28px;
+      transition: 0.5s;
+      margin-top: 7px;
+      margin-left: 11px;
+  }
+
+  footer p{
+      background-color: #444;
+  }
+
+  .dayNight{
+    position: absolute;
+    bottom: 25px;
+    left: 45%;
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    font-size: 25px;
+    cursor: pointer;
+}
+.about.night{
+    background:#333;
+}
+.dayNight ion-icon:nth-child(2),.about.night .dayNight ion-icon:nth-child(1){
+    display: none;
+}
+.about.night .dayNight ion-icon:nth-child(2){
+    display: block;
+
+}
+.about.night .dayNight{
+    color: #fff;
+    background-color: #444;
+}
+  
