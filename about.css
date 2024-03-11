@@ -10,6 +10,7 @@
   .about{
     background-color: #f1efe7;
     margin-bottom: 50px;
+    justify-content: space-around;
   }
   footer {
       background-color: #333;
